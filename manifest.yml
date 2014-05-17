@@ -1,0 +1,10 @@
+---
+applications:
+- name: 512-twitty
+  instances: 1
+  host: 512-twitty
+  domain: ng.bluemix.net
+  path: . #Path to the application to be pushed
+  description: Le 512 de Twitty
+  mem: 128M
+  buildpack: https://github.com/lukaslehmann/cf-apache-buildpack.git
